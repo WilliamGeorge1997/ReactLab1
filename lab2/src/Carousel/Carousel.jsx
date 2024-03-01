@@ -42,7 +42,7 @@ export default class Carousel extends Component {
   nextSlide = () => {
     const { currentSlide } = this.state;
     this.setState({
-      currentSlide: (currentSlide + 1) % 3, // Assuming there are 3 slides
+      currentSlide: (currentSlide + 1) % 3, 
     });
   };
 
